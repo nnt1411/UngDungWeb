@@ -16,6 +16,6 @@ namespace UngDungWeb.Controllers
         public ActionResult MainMenu()
         {          
             return View(menusDAO.getListByParentId(0));
-        }
+        }      
     }
 }
